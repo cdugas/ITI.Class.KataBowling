@@ -41,7 +41,6 @@ namespace ITI.Class.BowlORama.Tests
             bool expected = true;
             target.Roll1 = 10;
 
-
             //Act
             bool actual = target.IsStrike;
 
