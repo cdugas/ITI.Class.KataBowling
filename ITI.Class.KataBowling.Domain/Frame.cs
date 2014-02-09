@@ -52,5 +52,7 @@ namespace ITI.Class.BowlORama.Domain
         public int roll1 { get; set; }
 
         public int roll2 { get; set; }
+
+        public bool IsSpare { get; set; }
     }
 }

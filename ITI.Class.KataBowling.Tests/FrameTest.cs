@@ -47,5 +47,22 @@ namespace ITI.Class.BowlORama.Tests
             //Assert
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void SettingRoll1AndRoll2To10SetsSpareToTrue()
+        {
+            //Arrange
+            bool expected = true;
+            target.Roll1 = 5;
+            target.Roll2 = 5;
+
+            //Act
+            bool actual = target.IsSpare;
+
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+
+        }
     }
 }
